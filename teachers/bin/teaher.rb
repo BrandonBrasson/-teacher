@@ -18,6 +18,17 @@ def names(teachers)
   end
 
 
+#def name (){
+#  collect.each do |teacher|
+#  return ['Ian','Tracy','JJ','Antoin' ]  #iterate
+#}
+#def name (teachers,height){
+ # collect.each do |teacher|
+  #return ['height: 76 height: 62 height: 70 height: 71' ]  #iterate
+#}
+#def name (teachers,height){
+  #collect.each do |teacher|
+  #return [''Ian','Tracy','JJ','Antoin']  #iterate
 
 
 
@@ -43,3 +54,4 @@ end
 
 
 end
+ 
