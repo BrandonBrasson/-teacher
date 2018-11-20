@@ -18,7 +18,8 @@ end
 
 def tall_teachers(teachers):
     teachers.collect do |teacher|
- return [{name: 'Ian', height: 76}, {name: 'Tracy', height: 62}, {name: 'JJ', height: 70}, {name: 'Antoin', height: 71} ]
+puts "#{height}If a teacher's height is greater than 72."
+   array << teacher[:height]      
 end
 
 def any_start_with_t?(teachers)
