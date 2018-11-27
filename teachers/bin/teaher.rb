@@ -18,17 +18,31 @@ end
 
 def tall_teachers(teachers):
     teachers.collect do |teacher|
-puts "#{height}If a teacher's height is greater than 72."
-   array << teacher[:height]      
+ if {:height} >= is greater then 72
+ return teacher
+elsif {:height} < is less then 68
+ return nil
+   array << teacher[:height]
+  end
+end
+
+def tall_teachers(teachers):
+  teachers.collect do |teacher|
+ if {:height} >= 72
+ return teacher
+ elsif {:height} < 68
+ return nil
+  end
+ end
 end
 
 def any_start_with_t?(teachers)
   # returns true if any of the teachers have a name starting with the letter 'T', otherwise returns false
     teachers.collect do |teacher|
   for teacher in teachers:
-   if teacher[0]=='T':
-  return True
-  return False
+  if teacher[0]=='T':
+  teachers.collect(teachers)
+  return teacher
 end
 
 
